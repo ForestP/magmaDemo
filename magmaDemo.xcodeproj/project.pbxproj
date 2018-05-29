@@ -8,20 +8,70 @@
 
 /* Begin PBXBuildFile section */
 		AE36686220BBBA04002F37DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36686120BBBA04002F37DA /* AppDelegate.swift */; };
-		AE36686420BBBA04002F37DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36686320BBBA04002F37DA /* ViewController.swift */; };
+		AE36686420BBBA04002F37DA /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36686320BBBA04002F37DA /* SignUpVC.swift */; };
 		AE36686720BBBA04002F37DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE36686520BBBA04002F37DA /* Main.storyboard */; };
 		AE36686920BBBA04002F37DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE36686820BBBA04002F37DA /* Assets.xcassets */; };
 		AE36686C20BBBA04002F37DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE36686A20BBBA04002F37DA /* LaunchScreen.storyboard */; };
+		AE36687920BBBBC5002F37DA /* fieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36687720BBBBC5002F37DA /* fieldCell.swift */; };
+		AE36687A20BBBBC5002F37DA /* fieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE36687820BBBBC5002F37DA /* fieldCell.xib */; };
+		AE36687E20BBBCBC002F37DA /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36687D20BBBCBC002F37DA /* UITableView+Ext.swift */; };
+		AE36688020BBBCD9002F37DA /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36687F20BBBCD9002F37DA /* ReusableView.swift */; };
+		AE36688220BBBCF5002F37DA /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36688120BBBCF5002F37DA /* NibLoadableView.swift */; };
+		AE36688620BBBE27002F37DA /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36688520BBBE27002F37DA /* TextStyles.swift */; };
+		AE36689520BBBF40002F37DA /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE36688B20BBBF40002F37DA /* SF-Pro-Text-Semibold.otf */; };
+		AE36689620BBBF40002F37DA /* SF-Pro-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE36688C20BBBF40002F37DA /* SF-Pro-Text-RegularItalic.otf */; };
+		AE36689720BBBF40002F37DA /* SF-Pro-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE36688D20BBBF40002F37DA /* SF-Pro-Text-Light.otf */; };
+		AE36689820BBBF40002F37DA /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE36688E20BBBF40002F37DA /* SF-Pro-Display-Bold.otf */; };
+		AE36689920BBBF40002F37DA /* SF-Pro-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE36688F20BBBF40002F37DA /* SF-Pro-Text-Heavy.otf */; };
+		AE36689A20BBBF40002F37DA /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE36689020BBBF40002F37DA /* SF-Pro-Text-Regular.otf */; };
+		AE36689B20BBBF40002F37DA /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE36689120BBBF40002F37DA /* SF-Pro-Text-Bold.otf */; };
+		AE36689C20BBBF40002F37DA /* SF-Pro-Text-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE36689220BBBF40002F37DA /* SF-Pro-Text-HeavyItalic.otf */; };
+		AE36689D20BBBF40002F37DA /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE36689320BBBF40002F37DA /* SF-Pro-Text-SemiboldItalic.otf */; };
+		AE36689E20BBBF40002F37DA /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE36689420BBBF40002F37DA /* SF-Pro-Text-Medium.otf */; };
+		AE3668A120BBBF5B002F37DA /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3668A020BBBF5B002F37DA /* ColorConstants.swift */; };
+		AE3668A320BBC0BA002F37DA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3668A220BBC0BA002F37DA /* User.swift */; };
+		AE3668A520BBC252002F37DA /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3668A420BBC252002F37DA /* UserService.swift */; };
+		AE3668A720BC0291002F37DA /* SignUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3668A620BC0291002F37DA /* SignUpService.swift */; };
+		AE3668AA20BC33DC002F37DA /* headerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3668A820BC33DC002F37DA /* headerCell.swift */; };
+		AE3668AB20BC33DC002F37DA /* headerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE3668A920BC33DC002F37DA /* headerCell.xib */; };
+		AE3668AD20BC3DF6002F37DA /* InterestsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3668AC20BC3DF6002F37DA /* InterestsVC.swift */; };
+		AE3668AF20BDBE95002F37DA /* interestBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3668AE20BDBE95002F37DA /* interestBtnView.swift */; };
+		AE3668B120BDEE19002F37DA /* btnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3668B020BDEE19002F37DA /* btnView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE36685E20BBBA04002F37DA /* magmaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magmaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE36686120BBBA04002F37DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE36686320BBBA04002F37DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE36686320BBBA04002F37DA /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		AE36686620BBBA04002F37DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE36686820BBBA04002F37DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE36686B20BBBA04002F37DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE36686D20BBBA04002F37DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE36687720BBBBC5002F37DA /* fieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fieldCell.swift; sourceTree = "<group>"; };
+		AE36687820BBBBC5002F37DA /* fieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = fieldCell.xib; sourceTree = "<group>"; };
+		AE36687D20BBBCBC002F37DA /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		AE36687F20BBBCD9002F37DA /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		AE36688120BBBCF5002F37DA /* NibLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		AE36688520BBBE27002F37DA /* TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
+		AE36688B20BBBF40002F37DA /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		AE36688C20BBBF40002F37DA /* SF-Pro-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		AE36688D20BBBF40002F37DA /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
+		AE36688E20BBBF40002F37DA /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		AE36688F20BBBF40002F37DA /* SF-Pro-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Heavy.otf"; sourceTree = "<group>"; };
+		AE36689020BBBF40002F37DA /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		AE36689120BBBF40002F37DA /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		AE36689220BBBF40002F37DA /* SF-Pro-Text-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+		AE36689320BBBF40002F37DA /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		AE36689420BBBF40002F37DA /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		AE3668A020BBBF5B002F37DA /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		AE3668A220BBC0BA002F37DA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AE3668A420BBC252002F37DA /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		AE3668A620BC0291002F37DA /* SignUpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpService.swift; sourceTree = "<group>"; };
+		AE3668A820BC33DC002F37DA /* headerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = headerCell.swift; sourceTree = "<group>"; };
+		AE3668A920BC33DC002F37DA /* headerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = headerCell.xib; sourceTree = "<group>"; };
+		AE3668AC20BC3DF6002F37DA /* InterestsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestsVC.swift; sourceTree = "<group>"; };
+		AE3668AE20BDBE95002F37DA /* interestBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interestBtnView.swift; sourceTree = "<group>"; };
+		AE3668B020BDEE19002F37DA /* btnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = btnView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +104,103 @@
 		AE36686020BBBA04002F37DA /* magmaDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AE36689F20BBBF4F002F37DA /* Constants */,
+				AE36688A20BBBF11002F37DA /* Fonts */,
+				AE36687C20BBBCA2002F37DA /* Extensions */,
+				AE36687B20BBBBD4002F37DA /* Protocols */,
+				AE36687620BBBA2B002F37DA /* Services */,
+				AE36687520BBBA1F002F37DA /* Controllers */,
+				AE36687420BBBA18002F37DA /* Views */,
+				AE36687320BBBA0C002F37DA /* Models */,
 				AE36686120BBBA04002F37DA /* AppDelegate.swift */,
-				AE36686320BBBA04002F37DA /* ViewController.swift */,
 				AE36686520BBBA04002F37DA /* Main.storyboard */,
 				AE36686820BBBA04002F37DA /* Assets.xcassets */,
 				AE36686A20BBBA04002F37DA /* LaunchScreen.storyboard */,
 				AE36686D20BBBA04002F37DA /* Info.plist */,
 			);
 			path = magmaDemo;
+			sourceTree = "<group>";
+		};
+		AE36687320BBBA0C002F37DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE3668A220BBC0BA002F37DA /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE36687420BBBA18002F37DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE36687720BBBBC5002F37DA /* fieldCell.swift */,
+				AE36687820BBBBC5002F37DA /* fieldCell.xib */,
+				AE3668A820BC33DC002F37DA /* headerCell.swift */,
+				AE3668A920BC33DC002F37DA /* headerCell.xib */,
+				AE36688520BBBE27002F37DA /* TextStyles.swift */,
+				AE3668AE20BDBE95002F37DA /* interestBtnView.swift */,
+				AE3668B020BDEE19002F37DA /* btnView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AE36687520BBBA1F002F37DA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE36686320BBBA04002F37DA /* SignUpVC.swift */,
+				AE3668AC20BC3DF6002F37DA /* InterestsVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AE36687620BBBA2B002F37DA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AE3668A420BBC252002F37DA /* UserService.swift */,
+				AE3668A620BC0291002F37DA /* SignUpService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AE36687B20BBBBD4002F37DA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AE36687F20BBBCD9002F37DA /* ReusableView.swift */,
+				AE36688120BBBCF5002F37DA /* NibLoadableView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AE36687C20BBBCA2002F37DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AE36687D20BBBCBC002F37DA /* UITableView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AE36688A20BBBF11002F37DA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AE36688E20BBBF40002F37DA /* SF-Pro-Display-Bold.otf */,
+				AE36689120BBBF40002F37DA /* SF-Pro-Text-Bold.otf */,
+				AE36688F20BBBF40002F37DA /* SF-Pro-Text-Heavy.otf */,
+				AE36689220BBBF40002F37DA /* SF-Pro-Text-HeavyItalic.otf */,
+				AE36688D20BBBF40002F37DA /* SF-Pro-Text-Light.otf */,
+				AE36689420BBBF40002F37DA /* SF-Pro-Text-Medium.otf */,
+				AE36689020BBBF40002F37DA /* SF-Pro-Text-Regular.otf */,
+				AE36688C20BBBF40002F37DA /* SF-Pro-Text-RegularItalic.otf */,
+				AE36688B20BBBF40002F37DA /* SF-Pro-Text-Semibold.otf */,
+				AE36689320BBBF40002F37DA /* SF-Pro-Text-SemiboldItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AE36689F20BBBF4F002F37DA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				AE3668A020BBBF5B002F37DA /* ColorConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +262,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3668AB20BC33DC002F37DA /* headerCell.xib in Resources */,
 				AE36686C20BBBA04002F37DA /* LaunchScreen.storyboard in Resources */,
 				AE36686920BBBA04002F37DA /* Assets.xcassets in Resources */,
+				AE36689D20BBBF40002F37DA /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
+				AE36689520BBBF40002F37DA /* SF-Pro-Text-Semibold.otf in Resources */,
+				AE36687A20BBBBC5002F37DA /* fieldCell.xib in Resources */,
+				AE36689920BBBF40002F37DA /* SF-Pro-Text-Heavy.otf in Resources */,
+				AE36689B20BBBF40002F37DA /* SF-Pro-Text-Bold.otf in Resources */,
+				AE36689620BBBF40002F37DA /* SF-Pro-Text-RegularItalic.otf in Resources */,
+				AE36689A20BBBF40002F37DA /* SF-Pro-Text-Regular.otf in Resources */,
+				AE36689720BBBF40002F37DA /* SF-Pro-Text-Light.otf in Resources */,
+				AE36689820BBBF40002F37DA /* SF-Pro-Display-Bold.otf in Resources */,
 				AE36686720BBBA04002F37DA /* Main.storyboard in Resources */,
+				AE36689E20BBBF40002F37DA /* SF-Pro-Text-Medium.otf in Resources */,
+				AE36689C20BBBF40002F37DA /* SF-Pro-Text-HeavyItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +287,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE36686420BBBA04002F37DA /* ViewController.swift in Sources */,
+				AE36688220BBBCF5002F37DA /* NibLoadableView.swift in Sources */,
+				AE36687920BBBBC5002F37DA /* fieldCell.swift in Sources */,
+				AE36688020BBBCD9002F37DA /* ReusableView.swift in Sources */,
+				AE3668A120BBBF5B002F37DA /* ColorConstants.swift in Sources */,
+				AE3668AD20BC3DF6002F37DA /* InterestsVC.swift in Sources */,
+				AE3668AF20BDBE95002F37DA /* interestBtnView.swift in Sources */,
+				AE36688620BBBE27002F37DA /* TextStyles.swift in Sources */,
+				AE3668A320BBC0BA002F37DA /* User.swift in Sources */,
+				AE3668A520BBC252002F37DA /* UserService.swift in Sources */,
+				AE36687E20BBBCBC002F37DA /* UITableView+Ext.swift in Sources */,
+				AE3668AA20BC33DC002F37DA /* headerCell.swift in Sources */,
+				AE36686420BBBA04002F37DA /* SignUpVC.swift in Sources */,
 				AE36686220BBBA04002F37DA /* AppDelegate.swift in Sources */,
+				AE3668A720BC0291002F37DA /* SignUpService.swift in Sources */,
+				AE3668B120BDEE19002F37DA /* btnView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DPBA8FX7MF;
+				DEVELOPMENT_TEAM = P98G8PGQH6;
 				INFOPLIST_FILE = magmaDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ForestPlasencia.magmaDemo;
@@ -290,7 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DPBA8FX7MF;
+				DEVELOPMENT_TEAM = P98G8PGQH6;
 				INFOPLIST_FILE = magmaDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ForestPlasencia.magmaDemo;
