@@ -25,11 +25,13 @@ class interestBtnView: UIView {
 
     func setLayoutForState() {
         if state == "unselected" {
-            self.layer.borderColor = MAIN_BLACK.cgColor
-            self.textLbl.textColor = MAIN_BLACK
+            self.layer.borderColor = SECONDARY_GREY.cgColor
+            self.textLbl.textColor = SECONDARY_GREY
+            self.layer.opacity = 0.73
         } else if state == "selected" {
             self.layer.borderColor = MAIN_ORANGE.cgColor
             self.textLbl.textColor = MAIN_ORANGE
+            self.layer.opacity = 1.0
         }
     }
     

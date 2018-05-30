@@ -49,3 +49,10 @@ class subHeader: UILabel {
         self.textColor = MAIN_ORANGE
     }
 }
+
+class bodySmallSublte: UILabel {
+    override func layoutSubviews() {
+        self.font = UIFont(name: "SF Pro Text", size: CGFloat(12.0))
+        self.textColor = SECONDARY_GREY
+    }
+}

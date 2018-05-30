@@ -8,13 +8,14 @@
 
 import UIKit
 
-class SignUpVC: UIViewController {
+class SignUpVC: UIViewController  {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var btnView: UIView!
     @IBOutlet weak var btnBottom: NSLayoutConstraint!
     
     var fieldData: [[String:String]]?
+    var activeField: UITextField?
     
     let interestSegue = "goToInterests"
     
@@ -43,12 +44,12 @@ class SignUpVC: UIViewController {
     
     @objc func keyboardWillShow(notification: NSNotification) {
         if let keyboardSize = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
+           
             let viewH = keyboardSize.height
             if btnView.isHidden {
                 self.btnView.isHidden = false
                 self.btnBottom.constant = viewH + 8
             }
-            
         }
     }
     
